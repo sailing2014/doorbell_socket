@@ -1,0 +1,16 @@
+{
+  "name": "doorbell_socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhujy",
+  "license": "BSD",
+  "dependencies": {
+    "node-syslog": "~1.2.0",
+    "request": "~2.72.0",
+    "sha1": "~1.1.1"
+  }
+}
