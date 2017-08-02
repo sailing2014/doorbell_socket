@@ -1,0 +1,6 @@
+Project = doorbell_socket
+User_ID = 6050
+Type    = pm2
+Version = %APP_VERSION%
+Owner   = x.x
+Email   = x.x@c.c

@@ -1,0 +1,15 @@
+{
+    "apps": [{
+        "name"              : "doorbell_socket",
+        "script"            : "/home/doorbell_socket/www/htdocs/main.js",
+        "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+        "out_file"          : "/home/doorbell_socket/log/doorbell_socket-out.log",
+        "error_file"        : "/home/doorbell_socket/log/doorbell_socket-err.log",
+        "min_uptime"        : "200s",               // 200 seconds, defaults to 1000
+        "max_restarts"      : 10,                   // defaults to 15
+        "cron_restart"      : "15 4 * * *",         // restart at 4:15 am every day
+        "watch"             : false,
+        "ignore_watch"      : ["[\\/\\\\]\\./", "node_modules"],    // unused
+        "merge_logs"        : false
+    }]
+}
