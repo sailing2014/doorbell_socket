@@ -1,0 +1,13 @@
+{
+    "proName":"doorbell_socket",
+    "port":"60502",
+    "system":{
+        "api_key":"x",
+        "api_secret":"x"
+    },
+    "sdcp":{
+        "base_url":"https://dev.x.x.com/v1/entitymanage",
+        "devicedata":"https://dev.x.x.com/v1/devicedata"
+    },
+    "environment":"developing"
+}
